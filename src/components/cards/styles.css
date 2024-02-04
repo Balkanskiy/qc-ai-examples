@@ -1,0 +1,29 @@
+ .grid-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 10px;
+ }
+
+ .card {
+   background: #f9f9f9;
+   padding: 10px;
+   border-radius: 5px;
+   text-align: center;
+ }
+
+ .card-image {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+   border-radius: 50%;
+ }
+
+ .card-title {
+   margin: 10px 0;
+   font-size: 1.25em;
+}
+
+ .card-text {
+    margin: 10px 0;
+    font-size: 1em;
+}
