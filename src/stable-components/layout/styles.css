@@ -17,11 +17,11 @@ body {
 aside {
     background: #2628ddff;
     max-width: 400px;
-    overflow: hidden;
     padding: 10px;
     flex: 1 1 30%;
     min-width: 300px;
     overflow: scroll;
+    container-type: inline-size;
 }
 
 main {
@@ -32,10 +32,6 @@ main {
     flex: 1 1 70%;
     min-width: 300px;
     overflow: scroll;
-}
-
-aside {
-    container-type: inline-size;
 }
 
 .cards {

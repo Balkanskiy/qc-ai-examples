@@ -3,7 +3,8 @@ import React from 'react';
 export const Card = ({fact, index}) => {
   return (
     <div className='card'>
-      <img className='img' src={`https://placekitten.com/300/300?image=${index}`}/>
+
+      <img className='img' src={`https://placekitten.com/300/300?image=${Math.floor(Math.random() * 16)}`}/>
       <div className='description'>
         <h2 className='title'>{"Interesting Cat Fact #" + (Math.floor(Math.random() * 100))}</h2>
         <p className='title'>{fact}</p>
