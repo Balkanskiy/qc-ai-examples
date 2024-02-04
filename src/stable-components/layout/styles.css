@@ -21,14 +21,14 @@ aside {
     flex: 1 1 30%;
     min-width: 300px;
     overflow: scroll;
-    container-type: inline-size;
+/*    container-type: inline-size;*/
 }
 
 main {
     display: flex;
     justify-content: center;
     padding: 15px;
-    container-type: inline-size;
+/*    container-type: inline-size;*/
     flex: 1 1 70%;
     min-width: 300px;
     overflow: scroll;
@@ -76,7 +76,7 @@ main {
     height: auto;
 }
 
-@container (max-width: 700px) {
+@media (max-width: 700px) {
     .card {
         flex-flow: column nowrap;
     }
@@ -105,7 +105,7 @@ main {
     }
 }
 
-@container (max-width: 400px) {
+@media (max-width: 400px) {
     .card {
         flex-flow: row nowrap;
         align-items: flex-start;
